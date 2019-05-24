@@ -10,4 +10,9 @@ public class DeckTest {
         Deck deck = new Deck("Programming");
         assertEquals("Programming",deck.name);
     }
+    @Test public void shouldCreateFrontAndBackCard(){
+        Card frontBack = new Card("ssh","Secure Shell");
+        assertEquals("ssh,Secure Shell",frontBack.toString());
+    }
+
 }

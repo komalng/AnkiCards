@@ -8,4 +8,9 @@ public class Card {
         this.front = front;
         this.back = back;
     }
+
+    @Override
+    public String toString() {
+        return front+","+back;
+    }
 }
