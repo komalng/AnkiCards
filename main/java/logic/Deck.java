@@ -3,7 +3,7 @@ package logic;
 public class Deck {
     public String name;
 
-    public Deck(String createName) {
-        this.name = createName;
+    public Deck(String name) {
+        this.name = name;
     }
 }
