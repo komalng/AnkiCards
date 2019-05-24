@@ -1,11 +1,11 @@
 package logic;
 
 public class card {
-    public String frontCards;
-    public String backCards;
+    public String front;
+    public String back;
 
-    public card(String frontCards, String backCards){
-        this.frontCards = frontCards;
-        this.backCards = backCards;
+    public card(String front, String back){
+        this.front = front;
+        this.back = back;
     }
 }
