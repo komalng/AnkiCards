@@ -12,7 +12,7 @@ public class Deck {
     }
 
 
-    public void createCard(String front,String back){
+    public void addCard(String front, String back){
         Card createCard = new Card(front,back);
         cards.add(createCard);
     }
