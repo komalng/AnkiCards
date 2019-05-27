@@ -14,5 +14,4 @@ public class DeckTest {
         Card frontBack = new Card("ssh","Secure Shell");
         assertEquals("ssh,Secure Shell",frontBack.toString());
     }
-
 }
