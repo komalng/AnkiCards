@@ -10,4 +10,15 @@ public class Deck {
     public Deck(String name) {
         this.name = name;
     }
+
+
+    public void createCard(String front,String back){
+        Card createCard = new Card(front,back);
+        cards.add(createCard);
+    }
+
+    public List<Card> getCards(){
+        return cards;
+    }
+
 }
