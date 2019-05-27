@@ -23,7 +23,7 @@ public class DeckTest {
         List<Card> expected = new ArrayList<>();
         expected.add(createCard);
         deck.addCard("ssh","Secure Shell");
-        assertEquals(expected.get(0),deck.addCards().get(0));
+        assertEquals(expected.get(0),deck.getCard().get(0));
 
     }
 
