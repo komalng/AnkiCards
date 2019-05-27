@@ -17,7 +17,7 @@ public class DeckTest {
         Card frontBack = new Card("ssh","Secure Shell");
         assertEquals("ssh,Secure Shell",frontBack.toString());
     }
-    @Test public void shouldAddCarddInCards(){
+    @Test public void shouldAddCardInCards(){
         Deck deck = new Deck("Programming");
         Card createCard = new Card("ssh","Secure Shell");
         List<Card> expected = new ArrayList<>();
